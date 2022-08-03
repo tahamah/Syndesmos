@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
     <head>
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -46,7 +46,7 @@
         </nav>
 
         <!------------------------------------- header  ------------------------------------------>
-        <section class="mt-3 px-8 pb-4 border-b-2">
+        <section class="mt-3 px-8 pb-1 border-b-2">
             <div class="flex  justify-between items-center">
                 <div class="flex items-center">
                     <img class="h-[50px] mr-20 cursor-pointer " src="./assets/photos/ico/main logo.png" alt="">
@@ -55,7 +55,7 @@
                 </div>
 
                 <div class="flex gap-5 justify-center items-center">
-                    <input class="border-b-2 w-[500px]  outline-none" placeholder="ψάχνω για …" type="text">
+                    <input class="border-b-2 w-[500px] pb-4 outline-none" placeholder="ψάχνω για …" type="text">
                     <img src="./assets/photos/ico/icon_search.png" alt="">
                     <img src="./assets/photos/ico/heart.png" alt="">
                     <img src="./assets/photos/ico/Screenshot 2022-08-02 210407.png" alt="">
@@ -245,38 +245,76 @@
         </section> -->
 
         <!-- 2 -->
-        <!-- <section>
-            <div class="carousel w-full">
+         <section class="max-w-7xl mx-auto my-20"> 
+            <h2 class=" text-2xl font-semibold my-10">Διάλεξε κατηγορία</h2>
+            <div class="carousel  px-10 w-full">
+
                 <div id="slide1" class="carousel-item relative w-full">
-                  <img src="https://placeimg.com/800/200/arch" class="w-full" />
-                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                    <a href="#slide4" class="btn btn-circle">❮</a> 
-                    <a href="#slide2" class="btn btn-circle">❯</a>
+                    <div class="grid gap-5 grid-cols-7">
+                        <img src="./assets/photos/carosel/Mask Group 60.png" alt="">
+                        <img src="./assets/photos/carosel/Mask Group 61.png" alt="">
+                        <img src="./assets/photos/carosel/Mask Group 62.png" alt="">
+                        <img src="./assets/photos/carosel/Mask Group 63.png" alt="">
+                        <img src="./assets/photos/carosel/Mask Group 64.png" alt="">
+                        <img src="./assets/photos/carosel/Mask Group 65.png" alt="">
+                        <img src="./assets/photos/carosel/Mask Group 66.png" alt="">
+                    </div>
+                  <div class="absolute flex justify-between transform -translate-y-1/2 -left-5 -right-5 top-1/2">
+                    <a href="#slide4" class="btn btn-circle drop-shadow-md border-0 hover:text-gray-100 bg-white text-gray-600">❮</a> 
+                    <a href="#slide2" class="btn btn-circle drop-shadow-md border-0 hover:text-gray-100 bg-white text-gray-600">❯</a>
                   </div>
-                </div> 
-                <div id="slide2" class="carousel-item relative w-full">
-                  <img src="https://placeimg.com/800/200/arch" class="w-full" />
-                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                    <a href="#slide1" class="btn btn-circle">❮</a> 
-                    <a href="#slide3" class="btn btn-circle">❯</a>
+                </div>
+
+                 <!-- <div id="slide2" class="carousel-item relative w-full">
+                  <div class="grid gap-5 grid-cols-7">
+                        <img src="./assets/photos/carosel/Mask Group 60.png" alt="">
+                        <img src="./assets/photos/carosel/Mask Group 61.png" alt="">
+                        <img src="./assets/photos/carosel/Mask Group 62.png" alt="">
+                        <img src="./assets/photos/carosel/Mask Group 63.png" alt="">
+                        <img src="./assets/photos/carosel/Mask Group 64.png" alt="">
+                        <img src="./assets/photos/carosel/Mask Group 65.png" alt="">
+                        <img src="./assets/photos/carosel/Mask Group 66.png" alt="">
+                    </div>
+                  <div class="absolute flex justify-between transform -translate-y-1/2 -left-5 -right-5 top-1/2">
+                    <a href="#slide1" class="btn btn-circle drop-shadow-md border-0 hover:text-gray-100 bg-white text-gray-600">❮</a> 
+                    <a href="#slide3" class="btn btn-circle drop-shadow-md border-0 hover:text-gray-100 bg-white text-gray-600">❯</a>
                   </div>
-                </div> 
-                <div id="slide3" class="carousel-item relative w-full">
-                  <img src="https://placeimg.com/800/200/arch" class="w-full" />
-                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                    <a href="#slide2" class="btn btn-circle">❮</a> 
-                    <a href="#slide4" class="btn btn-circle">❯</a>
+                </div>  -->
+
+
+
+                <!-- <div id="slide3" class="carousel-item relative w-full">
+                    <div class="grid gap-5 grid-cols-7">
+                        <img src="./assets/photos/carosel/Mask Group 60.png" alt="">
+                        <img src="./assets/photos/carosel/Mask Group 61.png" alt="">
+                        <img src="./assets/photos/carosel/Mask Group 62.png" alt="">
+                        <img src="./assets/photos/carosel/Mask Group 63.png" alt="">
+                        <img src="./assets/photos/carosel/Mask Group 64.png" alt="">
+                        <img src="./assets/photos/carosel/Mask Group 65.png" alt="">
+                        <img src="./assets/photos/carosel/Mask Group 66.png" alt="">
+                    </div>
+                  <div class="absolute flex justify-between transform -translate-y-1/2 -left-5 -right-5 top-1/2">
+                    <a href="#slide2" class="btn btn-circle drop-shadow-md border-0 hover:text-gray-100 bg-white text-gray-600">❮</a> 
+                    <a href="#slide4" class="btn btn-circle drop-shadow-md border-0 hover:text-gray-100 bg-white text-gray-600">❯</a>
                   </div>
                 </div> 
                 <div id="slide4" class="carousel-item relative w-full">
-                  <img src="https://placeimg.com/800/200/arch" class="w-full" />
-                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                    <a href="#slide3" class="btn btn-circle bg-white text-gray-600">❮</a> 
-                    <a href="#slide1" class="btn btn-circle bg-white text-gray-600">❯</a>
+                    <div class="grid gap-5 grid-cols-7">
+                        <img src="./assets/photos/carosel/Mask Group 60.png" alt="">
+                        <img src="./assets/photos/carosel/Mask Group 61.png" alt="">
+                        <img src="./assets/photos/carosel/Mask Group 62.png" alt="">
+                        <img src="./assets/photos/carosel/Mask Group 63.png" alt="">
+                        <img src="./assets/photos/carosel/Mask Group 64.png" alt="">
+                        <img src="./assets/photos/carosel/Mask Group 65.png" alt="">
+                        <img src="./assets/photos/carosel/Mask Group 66.png" alt="">
+                    </div>
+                  <div class="absolute flex justify-between transform -translate-y-1/2 -left-5 -right-5 top-1/2">
+                    <a href="#slide3" class="btn btn-circle bg-white drop-shadow-md border-0 hover:text-gray-100 bg-white text-gray-600 text-gray-600">❮</a> 
+                    <a href="#slide1" class="btn btn-circle drop-shadow-md border-0 hover:text-gray-100 bg-white text-gray-600">❯</a>
                   </div>
-                </div>
+                </div>  -->
               </div>
-        </section> -->
+        </section> 
 
         <!----------------------- Όλες οι κατηγορίες (doctor) ---------------------->
         <section class="max-w-7xl mx-auto">
