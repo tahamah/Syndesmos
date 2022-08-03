@@ -14,8 +14,19 @@
         <!-- Tailwind CSS -->
         <link href="https://cdn.jsdelivr.net/npm/daisyui@2.20.0/dist/full.css" rel="stylesheet" type="text/css" />
         <script src="https://cdn.tailwindcss.com"></script>
+        <!-- Font Google -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Chewy&family=Manrope&family=Oswald&family=Prompt&family=Roboto+Serif:opsz@8..144&family=Rubik+Wet+Paint&family=Work+Sans:ital@1&display=swap" rel="stylesheet">
+
+        <!-- Link Swiper's CSS -->
+        <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+
+        <link rel="stylesheet" href="./css/style.css">
     </head>
-    <body>
+    <body class="main-font">
         <nav class="bg-[#019289] text-gray-100">
             <!----------------------------- Nav Desktop  ------------------------------>
             <div class="hidden md:block">
@@ -79,10 +90,27 @@
         <section class="mt-5 hidden md:block mx-auto">
             <div class="flex justify-center mb-5 gap-5 px-8">
                 <div class="grid gap-5 grid-cols-2">
-                    <div class=" "> 
+                    <div class="relative"> 
                         <img src="./assets/photos/banner/10-10-75-051_3.png" alt="">
+                        <div class="bg-[#DD1B1E] p-10 opacity-[90%] top-0 absolute h-1/2 w-full">
+                            <div class=" text-right text-3xl text-[#FFFFFF]">
+                                <h4>Παιδικά </h4>
+                                <h4>& Βρεφικά!</h4> 
+                                <h4 class="text-2xl mt-10">KIDS CARE!</h4>
+                            </div>
+                        </div>
                     </div>
                     <div class=" bg-[#009289]"> 
+                        <div class="text-[#FFFFFF] p-10">
+                            <h1 class="inline font-manrope text-7xl font-black">30</h1> 
+                            <h3 class="inline text-3xl font-bold">χρόνια</h3>
+                            <div class="text-3xl">
+                                <p>δίπλα στον Έλληνα </p>
+                                <p>φαρμακοποιό και </p>
+                                <p>επαγγελματία </p>
+                               <p> υγείας</p>
+                            </div>
+                        </div>
                      
                     </div>
                 </div>
@@ -92,8 +120,23 @@
                 </div>
             </div>
             <div class="flex justify-center gap-5 px-8 ">
-                <div class=""> 
+                <div class="relative"> 
                     <img class=" h-[416px]" src="./assets/photos/banner/Mask Group 74.png" alt="">
+                    <div class="bg-[#EE7E19] opacity-80 absolute top-0 h-full w-full">
+                        <div class="p-10 text-right text-3xl text-[#FFFFFF]">
+                            <h3 class="text-2xl">Sales</h3>
+                            <h2>
+                                Γνωρίστε τη νέα σειρά 
+                            </h2>
+                            <h2>
+                                δερμοκαλλυντικών 
+                            </h2>
+                            <h2>
+                                
+                                προϊόντων Galesyn®
+                            </h2>
+                        </div>
+                    </div>
                 </div>
                 <div class="grid gap-5 grid-cols-2 "> 
                     <div class=" bg-[#E0E00D] h-[416px] flex"> 
@@ -147,114 +190,132 @@
                 <img class="md:hidden" src="./assets/photos/ico/icon_arrow-right.svg" alt="">
             </div>
             <div class="grid items-end gap-5 grid-cols-2 md:grid-cols-5 mx-5">
-                <div>
-                    <div class="flex justify-center">
-                        <img src="./assets/photos/new-product/new_product (5).png" alt="">
+                
+                <div class="card-hover duration-300">
+                    <div class="card-hover2 duration-300 flex justify-center">
+                        <img  src="./assets/photos/new-product/new_product (5).png" alt="">
                     </div>
-                    <div class="border-t-2">
+                    <div class="border-t-2 ">
                         <p class="font-bold text-base"> Women’s Placement Thinstrap</p>
                         <p class="text-sm text-[#5A5A5A]">Muscleback Swimsuit Blue/Black</p>
-                        <p class="text-sm text-[#5A5A5A]">Συνδεθείτε για να δείτε την τιμή</p>
+                        <p class="card-hover3 duration-300 text-sm  text-[#5A5A5A]">Συνδεθείτε για να δείτε την τιμή</p>
                     </div>
                 </div>
-                <div>
-                    <div class="flex justify-center">
-                        <img src="./assets/photos/new-product/new_product (4).png" alt="">
+                <div class="card-hover duration-300">
+                    <div class="card-hover2 duration-300 flex justify-center">
+                        <img  src="./assets/photos/new-product/new_product (4).png" alt="">
                     </div>
-                    <div class="border-t-2">
+                    <div class="border-t-2 ">
                         <p class="font-bold text-base"> Women’s Placement Thinstrap</p>
                         <p class="text-sm text-[#5A5A5A]">Muscleback Swimsuit Blue/Black</p>
-                        <p class="text-sm text-[#5A5A5A]">Συνδεθείτε για να δείτε την τιμή</p>
+                        <p class="card-hover3 duration-300 text-sm  text-[#5A5A5A]">Συνδεθείτε για να δείτε την τιμή</p>
                     </div>
                 </div>
-                <div>
-                    <div class="flex justify-center">
-                        <img src="./assets/photos/new-product/new_product (3).png" alt="">
+                <div class="card-hover duration-300">
+                    <div class="card-hover2 duration-300 flex justify-center">
+                        <img  src="./assets/photos/new-product/new_product (3).png" alt="">
                     </div>
-                    <div class="border-t-2">
-                        <p class="font-bold text-base"> tonic mountain tea</p>
-                        <p class="text-sm text-[#5A5A5A]">Muscleback Swimsuit Blue/Black</p>
-                        <p class="text-sm text-[#5A5A5A]">Συνδεθείτε για να δείτε την τιμή</p>
-                    </div>
-                </div>
-                <div>
-                    <div class="flex justify-center">
-                        <img src="./assets/photos/new-product/new_product (2).png" alt="">
-                    </div>
-                    <div class="border-t-2">
+                    <div class="border-t-2 ">
                         <p class="font-bold text-base"> Women’s Placement Thinstrap</p>
                         <p class="text-sm text-[#5A5A5A]">Muscleback Swimsuit Blue/Black</p>
-                        <p class="text-sm text-[#5A5A5A]">Συνδεθείτε για να δείτε την τιμή</p>
+                        <p class="card-hover3 duration-300 text-sm  text-[#5A5A5A]">Συνδεθείτε για να δείτε την τιμή</p>
                     </div>
                 </div>
-                <div>
-                    <div class="flex justify-center">
-                        <img src="./assets/photos/new-product/new_product (1).png" alt="">
+                <div class="card-hover duration-300">
+                    <div class="card-hover2 duration-300 flex justify-center">
+                        <img  src="./assets/photos/new-product/new_product (2).png" alt="">
                     </div>
-                    <div class="border-t-2">
+                    <div class="border-t-2 ">
                         <p class="font-bold text-base"> Women’s Placement Thinstrap</p>
                         <p class="text-sm text-[#5A5A5A]">Muscleback Swimsuit Blue/Black</p>
-                        <p class="text-sm text-[#5A5A5A]">Συνδεθείτε για να δείτε την τιμή</p>
+                        <p class="card-hover3 duration-300 text-sm  text-[#5A5A5A]">Συνδεθείτε για να δείτε την τιμή</p>
                     </div>
                 </div>
-                <div>
-                    <div class="flex justify-center">
-                        <img src="./assets/photos/new-product/new_product (6).png" alt="">
+                <div class="card-hover duration-300">
+                    <div class="card-hover2 duration-300 flex justify-center">
+                        <img  src="./assets/photos/new-product/new_product (1).png" alt="">
                     </div>
-                    <div class="border-t-2">
+                    <div class="border-t-2 ">
                         <p class="font-bold text-base"> Women’s Placement Thinstrap</p>
                         <p class="text-sm text-[#5A5A5A]">Muscleback Swimsuit Blue/Black</p>
-                        <p class="text-sm text-[#5A5A5A]">Συνδεθείτε για να δείτε την τιμή</p>
+                        <p class="card-hover3 duration-300 text-sm  text-[#5A5A5A]">Συνδεθείτε για να δείτε την τιμή</p>
                     </div>
                 </div>
-                <div>
-                    <div class="flex justify-center">
-                        <img src="./assets/photos/new-product/new_product (7).png" alt="">
+                <div class="card-hover duration-300">
+                    <div class="card-hover2 duration-300 flex justify-center">
+                        <img  src="./assets/photos/new-product/new_product (6).png" alt="">
                     </div>
-                    <div class="border-t-2">
+                    <div class="border-t-2 ">
                         <p class="font-bold text-base"> Women’s Placement Thinstrap</p>
                         <p class="text-sm text-[#5A5A5A]">Muscleback Swimsuit Blue/Black</p>
-                        <p class="text-sm text-[#5A5A5A]">Συνδεθείτε για να δείτε την τιμή</p>
+                        <p class="card-hover3 duration-300 text-sm  text-[#5A5A5A]">Συνδεθείτε για να δείτε την τιμή</p>
                     </div>
                 </div>
-                <div>
-                    <div class="flex justify-center">
-                        <img src="./assets/photos/new-product/new_product (8).png" alt="">
+                <div class="card-hover duration-300">
+                    <div class="card-hover2 duration-300 flex justify-center">
+                        <img  src="./assets/photos/new-product/new_product (7).png" alt="">
                     </div>
-                    <div class="border-t-2">
+                    <div class="border-t-2 ">
                         <p class="font-bold text-base"> Women’s Placement Thinstrap</p>
                         <p class="text-sm text-[#5A5A5A]">Muscleback Swimsuit Blue/Black</p>
-                        <p class="text-sm text-[#5A5A5A]">Συνδεθείτε για να δείτε την τιμή</p>
+                        <p class="card-hover3 duration-300 text-sm  text-[#5A5A5A]">Συνδεθείτε για να δείτε την τιμή</p>
                     </div>
                 </div>
-                <div>
-                    <div class="flex justify-center">
-                        <img src="./assets/photos/new-product/new_product (9).png" alt="">
+                <div class="card-hover duration-300">
+                    <div class="card-hover2 duration-300 flex justify-center">
+                        <img  src="./assets/photos/new-product/new_product (8).png" alt="">
                     </div>
-                    <div class="border-t-2">
+                    <div class="border-t-2 ">
                         <p class="font-bold text-base"> Women’s Placement Thinstrap</p>
                         <p class="text-sm text-[#5A5A5A]">Muscleback Swimsuit Blue/Black</p>
-                        <p class="text-sm text-[#5A5A5A]">Συνδεθείτε για να δείτε την τιμή</p>
+                        <p class="card-hover3 duration-300 text-sm  text-[#5A5A5A]">Συνδεθείτε για να δείτε την τιμή</p>
                     </div>
                 </div>
-                <div>
-                    <div class="flex justify-center">
-                        <img src="./assets/photos/new-product/new_product (10).png" alt="">
+                <div class="card-hover duration-300">
+                    <div class="card-hover2 duration-300 flex justify-center">
+                        <img  src="./assets/photos/new-product/new_product (9).png" alt="">
                     </div>
-                    <div class="border-t-2">
+                    <div class="border-t-2 ">
                         <p class="font-bold text-base"> Women’s Placement Thinstrap</p>
                         <p class="text-sm text-[#5A5A5A]">Muscleback Swimsuit Blue/Black</p>
-                        <p class="text-sm text-[#5A5A5A]">Συνδεθείτε για να δείτε την τιμή</p>
+                        <p class="card-hover3 duration-300 text-sm  text-[#5A5A5A]">Συνδεθείτε για να δείτε την τιμή</p>
+                    </div>
+                </div>
+                <div class="card-hover duration-300">
+                    <div class="card-hover2 duration-300 flex justify-center">
+                        <img  src="./assets/photos/new-product/new_product (10).png" alt="">
+                    </div>
+                    <div class="border-t-2 ">
+                        <p class="font-bold text-base"> Women’s Placement Thinstrap</p>
+                        <p class="text-sm text-[#5A5A5A]">Muscleback Swimsuit Blue/Black</p>
+                        <p class="card-hover3 duration-300 text-sm  text-[#5A5A5A]">Συνδεθείτε για να δείτε την τιμή</p>
                     </div>
                 </div>
             </div>
+
             <div class="flex justify-center md:hidden">
                 <button class="outline  duration-500  btn-outline mt-10 outline-offset-2  text-gray-800 outline-2 py-2 px-4">
                     δείτε περισσότερα
                 </button>
             </div>
         </section>
-        
+
+        <!------------------ Swiper ----------------------->
+    <div class="swiper max-w-7xl h-[40%] mySwiper ">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img  src="./assets/photos/carosel/galesyn_repellent_onmarble_banner_900x400.png" alt="">
+        </div>
+          <div class="swiper-slide">
+            
+            <img src="./assets/photos/carosel/galesyn_repellent_onmarble_banner_900x400.png" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="./assets/photos/carosel/galesyn_repellent_onmarble_banner_900x400.png" alt="">
+          </div>
+        </div>
+        <div class="swiper-pagination  "></div>
+    </div>
 
         <!-- carosel -->
         <!-- <section>
@@ -386,21 +447,49 @@
         <section class="max-w-7xl mx-auto hidden md:block">
             <h2 class="text-2xl my-5">Περισσότερα Προϊόντα</h2>
             <div class="flex gap-5">
-                <div>
-                    <img src="./assets/photos/bee_sun_safe/Mask Group 75.png" alt="">
+                <div class="relative">
+                    <button class="absolute top-5 left-5 bg-[#212121] text-white px-4 py-1 rounded">BEE SUN SAFE</button>
+                    <img  src="./assets/photos/bee_sun_safe/Mask Group 75.png" alt="">
+                    <div class="absolute bottom-5 font-sm text-[#212121] left-5">
+                        <p class="text-lg font-bold">Apivita</p>
+                        <p>Ενυδατική Κρέμα-Gel Προσώπου με </p>
+                        <p>Χρώμα SPF50</p>
+                    </div>
                 </div>
                 <div class="grid grid-cols-2 gap-5">
-                    <div>
+                    <div class="relative">
+                        <button class="absolute top-5 left-5 bg-[#212121] text-white px-4 py-1 rounded">0%</button>
                         <img src="./assets/photos/bee_sun_safe/189bdde9e91e4209aad6a4814ee4b12b-web_1010x1180_transparent_png copy.png" alt="">
+                        <div class="absolute bottom-5 font-sm text-[#212121] left-5">
+                            <p class="text-lg font-bold">Nivea Cellular Luminous630</p>
+                            <p>Κρέμα ημέρας κατά των κηλίδων </p>
+                       
+                        </div>
                     </div>
-                    <div>
+                    <div class="relative">
+                        <button class="absolute top-5 left-5 bg-[#212121] text-white px-4 py-1 rounded">0%</button>
                         <img src="./assets/photos/bee_sun_safe/Mask Group 76.png" alt="">
+                        <div class="absolute bottom-5 font-sm text-[#212121] left-5">
+                            <p class="text-lg font-bold">Nivea Cellular Luminous630</p>
+                            <p>Κρέμα ημέρας κατά των κηλίδων</p>
+                           
+                        </div>
                     </div>
-                    <div>
+                    <div class="relative">
+                        <button class="absolute top-5 left-5 bg-[#212121] text-white px-4 py-1 rounded">20%</button>
                         <img src="./assets/photos/bee_sun_safe/Mask Group 77.png" alt="">
+                        <div class="absolute bottom-5 font-sm text-[#FFFFFF] left-5">
+                            <p class="text-lg font-bold">Αντηλιακή Προστασία</p>
+                            <p>Intense Bronze Lotion spf6</p>
+                     
+                        </div>
                     </div>
-                    <div>
+                    <div class="relative">
                         <img src="./assets/photos/bee_sun_safe/10-22-01-587.png" alt="">
+                        <div class="absolute bottom-5 font-sm text-[#FFFFFF] left-5">
+                            <p class="text-lg font-bold">Aqua Beelicious</p>
+                            <p>Gel Ενυδάτωσης ελαφριάς υφής </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -721,7 +810,7 @@
 
 
         <!-------------------------- New Arrivals Exclusive ------------------>
-        <!-- <section class="max-w-7xl mx-auto my-20 bg-transparent bg-[#999999]">
+        <section class="max-w-7xl mx-auto my-20 bg-transparent bg-[#999999]">
             <div class="flex h-[600px]">
                 <div class="relative"> 
                     <div class="absolute top-20  right-10 text-[#FFFAFA] ">
@@ -744,7 +833,7 @@
                     </div>
                 </div>
             </div>
-        </section> -->
+        </section>
 
 
         <!-------------------- Top of The Instagram Feed  ------------------>
@@ -943,5 +1032,11 @@
             </section> -->
 
         </footer>
+
+    <!------------- Swiper JS -------->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!---------------- Initialize Swiper or app.js ------------------>
+    <script src="./js/app.js"></script>
     </body>
 </html>
