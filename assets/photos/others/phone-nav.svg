@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="435" height="120" viewBox="0 0 435 120">
+  <defs>
+    <filter id="Rectangle_6802" x="0" y="0" width="435" height="120" filterUnits="userSpaceOnUse">
+      <feOffset dy="-10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-opacity="0.051"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_15392" data-name="Group 15392" transform="translate(23427 21047)">
+    <g transform="matrix(1, 0, 0, 1, -23427, -21047)" filter="url(#Rectangle_6802)">
+      <rect id="Rectangle_6802-2" data-name="Rectangle 6802" width="375" height="60" transform="translate(30 40)" fill="#fff"/>
+    </g>
+    <g id="Group_15385" data-name="Group 15385" transform="translate(0 1)">
+      <path id="Path_7155" data-name="Path 7155" d="M91.609,791.528l14.823-13.706,13.177,13.706" transform="translate(-23474.166 -21767.822)" fill="none" stroke="#212121" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Path_7156" data-name="Path 7156" d="M112.885,783.777v15.55a1.379,1.379,0,0,1-1.375,1.381H96.3a1.379,1.379,0,0,1-1.376-1.381v-15.55" transform="translate(-23472.461 -21764.709)" fill="none" stroke="#212121" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <ellipse id="Ellipse_253" data-name="Ellipse 253" cx="2.819" cy="2.834" rx="2.819" ry="2.834" transform="translate(-23371.375 -20978.133)" fill="none" stroke="#212121" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    </g>
+    <g id="icon_search" transform="translate(-23305.502 -20989)">
+      <ellipse id="Ellipse_1" data-name="Ellipse 1" cx="12.504" cy="12.504" rx="12.504" ry="12.504" fill="none" stroke="#212121" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <line id="Line_1" data-name="Line 1" x2="4.445" y2="4.692" transform="translate(21.557 21.308)" fill="none" stroke="#212121" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    </g>
+    <g id="icon_heart" transform="translate(-23225 -20989)">
+      <g id="Group_3608" data-name="Group 3608">
+        <path id="Path_23441" data-name="Path 23441" d="M16.249,26.75c-.574,0-1.64,0-7.536-5.588-2.792-2.648-5.371-5.33-5.4-5.356a8.842,8.842,0,0,1,.012-12.47,8.794,8.794,0,0,1,12.456,0l.464.464.464-.464A8.808,8.808,0,0,1,31.75,9.577a8.789,8.789,0,0,1-2.579,6.241c-.014.015-2.594,2.7-5.386,5.343C17.888,26.75,16.823,26.75,16.249,26.75Z" transform="translate(-0.75 -0.75)" fill="none" stroke="#212121" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      </g>
+    </g>
+    <g id="cart_icon_hta" data-name="cart icon hta" transform="translate(-23147.5 -20989)">
+      <rect id="Rectangle_5" data-name="Rectangle 5" width="26" height="26" rx="2" fill="none" stroke="#212121" stroke-linecap="round" stroke-width="1.5"/>
+      <path id="Path_23442" data-name="Path 23442" d="M16.918,6.02a5.268,5.268,0,0,1-5.5,5,5.268,5.268,0,0,1-5.5-5" transform="translate(2.082 1.098)" fill="none" stroke="#212121" stroke-linecap="round" stroke-width="1.5"/>
+    </g>
+    <circle id="Ellipse_1888" data-name="Ellipse 1888" cx="10" cy="10" r="10" transform="translate(-23131.5 -20999.424)" fill="#dd1b1e"/>
+    <text id="_2" data-name="2" transform="translate(-23131.5 -20998.424)" fill="#fff" font-size="12" font-family="Manrope"><tspan x="6" y="13">2</tspan></text>
+    <g id="login_icon_hta" data-name="login icon hta" transform="translate(-23062 -20990)">
+      <circle id="Ellipse_122" data-name="Ellipse 122" cx="5" cy="5" r="5" transform="translate(8.691 4.42)" fill="none" stroke="#dd1b1e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Path_5611" data-name="Path 5611" d="M1196.569,71.377a11.031,11.031,0,0,0-17,0" transform="translate(-1174.568 -48.563)" fill="none" stroke="#dd1b1e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <circle id="Ellipse_123" data-name="Ellipse 123" cx="13.5" cy="13.5" r="13.5" fill="none" stroke="#dd1b1e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    </g>
+  </g>
+</svg>

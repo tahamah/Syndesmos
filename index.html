@@ -26,7 +26,7 @@
 
         <link rel="stylesheet" href="./css/style.css">
     </head>
-    <body class="main-font">
+    <body class="main-font overflow-x-hidden">
         <nav class="bg-[#019289] text-gray-100">
             <!----------------------------- Nav Desktop  ------------------------------>
             <div class="hidden md:block">
@@ -55,6 +55,10 @@
                 </div>
             </div>
         </nav>
+        <!-- mobile fixed manu nav -->
+        <div class="fixed bottom-0 z-50 md:hidden">
+            <img class="w-screen" src="./assets/photos/others/phone-nav.png" alt="">
+        </div>
 
         <!------------------------------------- header Desktop ------------------------------------------>
         <section class="mt-3 px-8 pb-1 border-b-2 hidden md:block">
@@ -317,109 +321,44 @@
         <div class="swiper-pagination  "></div>
     </div>
 
-        <!-- carosel -->
-        <!-- <section>
-            <div class="max-w-3xl mx-auto">
-                <div class="carousel flex justify-center w-full">
-                    <div id="item1" class="carousel-item w-[1100px]">
-                      <img src="./assets/photos/carosel/Screenshot 2022-08-02 231402.png" class="w-[1100px]" />
-                    </div> 
-                    <div id="item2" class="carousel-item w-[1100px]">
-                        <img src="./assets/photos/carosel/Screenshot 2022-08-02 231402.png" class="w-[1100px]" />
-                    </div> 
-                    <div id="item3" class="carousel-item w-[1100px]">
-                        <img src="./assets/photos/carosel/Screenshot 2022-08-02 231402.png" class="w-[1100px]" />
-                    </div> 
-                    
-                  </div> 
-                  <div class="flex justify-center w-full py-2 gap-2">
-                    <a href="#item1" class="btn btn-xs">1</a> 
-                    <a href="#item2" class="btn btn-xs">2</a> 
-                    <a href="#item3" class="btn btn-xs">3</a> 
-                  
-                </div>
-            </div>
-        </section> -->
+        <!-- slider pc -->
 
-        <!-- 2 -->
-         <section class="max-w-7xl mx-auto my-20"> 
+        <section class="max-w-7xl mx-auto px-10 relative">
             <h2 class=" text-2xl font-semibold my-10">Διάλεξε κατηγορία</h2>
-            <div class="carousel  px-10 w-full">
-
-                <div id="slide1" class="carousel-item relative w-full">
-                    <div class="hidden md:block">
-                        <div class="grid gap-5 grid-cols-7 ">
-                            <img src="./assets/photos/carosel/Mask Group 60.png" alt="">
-                            <img src="./assets/photos/carosel/Mask Group 61.png" alt="">
-                            <img src="./assets/photos/carosel/Mask Group 62.png" alt="">
-                            <img src="./assets/photos/carosel/Mask Group 63.png" alt="">
-                            <img src="./assets/photos/carosel/Mask Group 64.png" alt="">
-                            <img src="./assets/photos/carosel/Mask Group 65.png" alt="">
-                            <img src="./assets/photos/carosel/Mask Group 66.png" alt="">
-                        </div>
-                    </div>
-                    
-                    <div class="grid gap-2 grid-cols-3 md:hidden">
-                        <img src="./assets/photos/carosel/Mask Group 60.png" alt="">
-                        <img src="./assets/photos/carosel/Mask Group 61.png" alt="">
-                        <img src="./assets/photos/carosel/Mask Group 62.png" alt="">
-                    </div>
-                  <div class="absolute flex justify-between transform -translate-y-1/2 -left-5 -right-5 top-1/2">
-                    <a href="#slide4" class="btn btn-circle drop-shadow-md border-0 hover:text-gray-100 bg-white text-gray-600">❮</a> 
-                    <a href="#slide2" class="btn btn-circle drop-shadow-md border-0 hover:text-gray-100 bg-white text-gray-600">❯</a>
-                  </div>
+            <div class="swiper mySwiper2 ">
+                <div class="swiper-wrapper ">
+                  <div class="swiper-slide hi"><img src="./assets/photos/carosel/Mask Group 60.png" alt=""></div>
+                  <div class="swiper-slide hi"><img src="./assets/photos/carosel/Mask Group 61.png" alt=""></div>
+                  <div class="swiper-slide hi"><img src="./assets/photos/carosel/Mask Group 62.png" alt=""></div>
+                  <div class="swiper-slide hi"><img src="./assets/photos/carosel/Mask Group 63.png" alt=""></div>
+                  <div class="swiper-slide hi"><img src="./assets/photos/carosel/Mask Group 64.png" alt=""></div>
+                  <div class="swiper-slide hi"><img src="./assets/photos/carosel/Mask Group 65.png" alt=""></div>
+                  <div class="swiper-slide hi"><img src="./assets/photos/carosel/Mask Group 66.png" alt=""></div>
+                  <div class="swiper-slide hi"><img src="./assets/photos/carosel/Mask Group 60.png" alt=""></div>
+                  <div class="swiper-slide hi"><img src="./assets/photos/carosel/Mask Group 61.png" alt=""></div>
+                  <div class="swiper-slide hi"><img src="./assets/photos/carosel/Mask Group 62.png" alt=""></div>
+                  <div class="swiper-slide hi"><img src="./assets/photos/carosel/Mask Group 63.png" alt=""></div>
+                  <div class="swiper-slide hi"><img src="./assets/photos/carosel/Mask Group 64.png" alt=""></div>
+                  <div class="swiper-slide hi"><img src="./assets/photos/carosel/Mask Group 65.png" alt=""></div>
+                  <div class="swiper-slide hi"><img src="./assets/photos/carosel/Mask Group 66.png" alt=""></div>
+                  <div class="swiper-slide hi"><img src="./assets/photos/carosel/Mask Group 60.png" alt=""></div>
+                  <div class="swiper-slide hi"><img src="./assets/photos/carosel/Mask Group 61.png" alt=""></div>
+                  <div class="swiper-slide hi"><img src="./assets/photos/carosel/Mask Group 62.png" alt=""></div>
+                  <div class="swiper-slide hi"><img src="./assets/photos/carosel/Mask Group 63.png" alt=""></div>
+                  <div class="swiper-slide hi"><img src="./assets/photos/carosel/Mask Group 64.png" alt=""></div>
+                  <div class="swiper-slide hi"><img src="./assets/photos/carosel/Mask Group 65.png" alt=""></div>
+                  <div class="swiper-slide hi"><img src="./assets/photos/carosel/Mask Group 66.png" alt=""></div>
                 </div>
+              </div>
+              <div class="swiper-next absolute z-50 top-32 right-3">
+                <button class="btn btn-circle shadow-md border-0 hover:text-gray-100 bg-white text-gray-600">❯</button>
+                </div>
+                <div class="swiper-prev absolute z-50 top-32 left-3">
+                    <button class="btn btn-circle shadow-md border-0 hover:text-gray-100 bg-white text-gray-600">❮</button>
+                </div>
+        </section>
 
-                 <!-- <div id="slide2" class="carousel-item relative w-full">
-                  <div class="grid gap-5 grid-cols-7">
-                        <img src="./assets/photos/carosel/Mask Group 60.png" alt="">
-                        <img src="./assets/photos/carosel/Mask Group 61.png" alt="">
-                        <img src="./assets/photos/carosel/Mask Group 62.png" alt="">
-                        <img src="./assets/photos/carosel/Mask Group 63.png" alt="">
-                        <img src="./assets/photos/carosel/Mask Group 64.png" alt="">
-                        <img src="./assets/photos/carosel/Mask Group 65.png" alt="">
-                        <img src="./assets/photos/carosel/Mask Group 66.png" alt="">
-                    </div>
-                  <div class="absolute flex justify-between transform -translate-y-1/2 -left-5 -right-5 top-1/2">
-                    <a href="#slide1" class="btn btn-circle drop-shadow-md border-0 hover:text-gray-100 bg-white text-gray-600">❮</a> 
-                    <a href="#slide3" class="btn btn-circle drop-shadow-md border-0 hover:text-gray-100 bg-white text-gray-600">❯</a>
-                  </div>
-                </div>  -->
-
-
-
-                <!-- <div id="slide3" class="carousel-item relative w-full">
-                    <div class="grid gap-5 grid-cols-7">
-                        <img src="./assets/photos/carosel/Mask Group 60.png" alt="">
-                        <img src="./assets/photos/carosel/Mask Group 61.png" alt="">
-                        <img src="./assets/photos/carosel/Mask Group 62.png" alt="">
-                        <img src="./assets/photos/carosel/Mask Group 63.png" alt="">
-                        <img src="./assets/photos/carosel/Mask Group 64.png" alt="">
-                        <img src="./assets/photos/carosel/Mask Group 65.png" alt="">
-                        <img src="./assets/photos/carosel/Mask Group 66.png" alt="">
-                    </div>
-                  <div class="absolute flex justify-between transform -translate-y-1/2 -left-5 -right-5 top-1/2">
-                    <a href="#slide2" class="btn btn-circle drop-shadow-md border-0 hover:text-gray-100 bg-white text-gray-600">❮</a> 
-                    <a href="#slide4" class="btn btn-circle drop-shadow-md border-0 hover:text-gray-100 bg-white text-gray-600">❯</a>
-                  </div>
-                </div> 
-                <div id="slide4" class="carousel-item relative w-full">
-                    <div class="grid gap-5 grid-cols-7">
-                        <img src="./assets/photos/carosel/Mask Group 60.png" alt="">
-                        <img src="./assets/photos/carosel/Mask Group 61.png" alt="">
-                        <img src="./assets/photos/carosel/Mask Group 62.png" alt="">
-                        <img src="./assets/photos/carosel/Mask Group 63.png" alt="">
-                        <img src="./assets/photos/carosel/Mask Group 64.png" alt="">
-                        <img src="./assets/photos/carosel/Mask Group 65.png" alt="">
-                        <img src="./assets/photos/carosel/Mask Group 66.png" alt="">
-                    </div>
-                  <div class="absolute flex justify-between transform -translate-y-1/2 -left-5 -right-5 top-1/2">
-                    <a href="#slide3" class="btn btn-circle bg-white drop-shadow-md border-0 hover:text-gray-100 bg-white text-gray-600 text-gray-600">❮</a> 
-                    <a href="#slide1" class="btn btn-circle drop-shadow-md border-0 hover:text-gray-100 bg-white text-gray-600">❯</a>
-                  </div>
-                </div>  -->
-               </div> 
-        </section> 
+        
 
         <!----------------------- Όλες οι κατηγορίες (doctor) PC ---------------------->
         <section class="max-w-7xl mx-auto">
@@ -588,75 +527,7 @@
             <h3 class="text-center font-semibold text-xl mt-5 text-[#7C7C7C]">Δείτε περισσότερα</h3>
         </section>
 
-        <!-- 2 mobile -->
-        <section class="max-w-7xl mx-auto my-20 md:hidden"> 
-            <h2 class=" text-2xl font-semibold my-10">Γνωρίστε τα Brands</h2>
-            <div class="carousel  px-10 w-full">
-
-                <div id="slide1" class="carousel-item relative w-full">
-                    <div class="grid gap-2 grid-cols-3 ">
-                        <img src="./assets/photos/brands/Mask Group 70.png" alt=''/>
-                        <img src="./assets/photos/brands/Mask Group 67.png" alt=''/>
-                        <img src="./assets/photos/brands/Mask Group 71.png" alt=''/>
-                    </div>
-                  <div class="absolute flex justify-between transform -translate-y-1/2 -left-5 -right-5 top-1/2">
-                    <a href="#slide4" class="btn btn-circle drop-shadow-md border-0 hover:text-gray-100 bg-white text-gray-600">❮</a> 
-                    <a href="#slide2" class="btn btn-circle drop-shadow-md border-0 hover:text-gray-100 bg-white text-gray-600">❯</a>
-                  </div>
-                </div>
-
-                 <!-- <div id="slide2" class="carousel-item relative w-full">
-                  <div class="grid gap-5 grid-cols-7">
-                        <img src="./assets/photos/carosel/Mask Group 60.png" alt="">
-                        <img src="./assets/photos/carosel/Mask Group 61.png" alt="">
-                        <img src="./assets/photos/carosel/Mask Group 62.png" alt="">
-                        <img src="./assets/photos/carosel/Mask Group 63.png" alt="">
-                        <img src="./assets/photos/carosel/Mask Group 64.png" alt="">
-                        <img src="./assets/photos/carosel/Mask Group 65.png" alt="">
-                        <img src="./assets/photos/carosel/Mask Group 66.png" alt="">
-                    </div>
-                  <div class="absolute flex justify-between transform -translate-y-1/2 -left-5 -right-5 top-1/2">
-                    <a href="#slide1" class="btn btn-circle drop-shadow-md border-0 hover:text-gray-100 bg-white text-gray-600">❮</a> 
-                    <a href="#slide3" class="btn btn-circle drop-shadow-md border-0 hover:text-gray-100 bg-white text-gray-600">❯</a>
-                  </div>
-                </div>  -->
-
-
-
-                <!-- <div id="slide3" class="carousel-item relative w-full">
-                    <div class="grid gap-5 grid-cols-7">
-                        <img src="./assets/photos/carosel/Mask Group 60.png" alt="">
-                        <img src="./assets/photos/carosel/Mask Group 61.png" alt="">
-                        <img src="./assets/photos/carosel/Mask Group 62.png" alt="">
-                        <img src="./assets/photos/carosel/Mask Group 63.png" alt="">
-                        <img src="./assets/photos/carosel/Mask Group 64.png" alt="">
-                        <img src="./assets/photos/carosel/Mask Group 65.png" alt="">
-                        <img src="./assets/photos/carosel/Mask Group 66.png" alt="">
-                    </div>
-                  <div class="absolute flex justify-between transform -translate-y-1/2 -left-5 -right-5 top-1/2">
-                    <a href="#slide2" class="btn btn-circle drop-shadow-md border-0 hover:text-gray-100 bg-white text-gray-600">❮</a> 
-                    <a href="#slide4" class="btn btn-circle drop-shadow-md border-0 hover:text-gray-100 bg-white text-gray-600">❯</a>
-                  </div>
-                </div> 
-                <div id="slide4" class="carousel-item relative w-full">
-                    <div class="grid gap-5 grid-cols-7">
-                        <img src="./assets/photos/carosel/Mask Group 60.png" alt="">
-                        <img src="./assets/photos/carosel/Mask Group 61.png" alt="">
-                        <img src="./assets/photos/carosel/Mask Group 62.png" alt="">
-                        <img src="./assets/photos/carosel/Mask Group 63.png" alt="">
-                        <img src="./assets/photos/carosel/Mask Group 64.png" alt="">
-                        <img src="./assets/photos/carosel/Mask Group 65.png" alt="">
-                        <img src="./assets/photos/carosel/Mask Group 66.png" alt="">
-                    </div>
-                  <div class="absolute flex justify-between transform -translate-y-1/2 -left-5 -right-5 top-1/2">
-                    <a href="#slide3" class="btn btn-circle bg-white drop-shadow-md border-0 hover:text-gray-100 bg-white text-gray-600 text-gray-600">❮</a> 
-                    <a href="#slide1" class="btn btn-circle drop-shadow-md border-0 hover:text-gray-100 bg-white text-gray-600">❯</a>
-                  </div>
-                </div>  -->
-               </div> 
-        </section> 
-
-
+   
         <!-- Top of The Beast Sellers PC -->
         <section class="max-w-7xl my-20 mx-auto p-12 bg-[#009289] hidden md:block">
             <div class="flex justify-between aitems-center">
@@ -879,32 +750,9 @@
 
 
 
-        <!-------------------------- New Arrivals Exclusive ------------------>
-        <!-- <section class="max-w-7xl mx-auto my-20 bg-transparent bg-[#999999]">
-            <div class="flex h-[600px]">
-                <div class="relative"> 
-                    <div class="absolute top-20  right-10 text-[#FFFAFA] ">
-                        <h2 class="text-3xl p-0 ">New Arrivals</h2>
-                        <h1 class="text-9xl p-0 font-bold">20</h1>
-                    </div>
-                    <img src="./assets/photos/new_arrivals_exclu/Mask Group 80.png" alt="">
-                    <div>
-                        <h2 class="text-2xl absolute bottom-32 font-bold  right-10 text-[#FFFAFA]">#COVID-19 PREVENTION</h2>
-                    </div>
-                </div>
-                <div class="relative">
-                    <div class="absolute top-20 left-10 text-[#FFFAFA] ">
-                        <h2 class="text-3xl p-0">Exclusive</h2>
-                        <h1 class="text-9xl p-0  font-bold">22</h1>
-                    </div>
-                    <img src="./assets/photos/new_arrivals_exclu/Mask Group 79.png" alt="">
-                    <div>
-                        <h2 class="text-2xl absolute bottom-32 font-bold  left-10 text-[#FFFAFA]">#ΦΡΟΝΤΙΔΑ ΒΡΕΦΩΝ & ΠΑΙΔΙΩΝ</h2>
-                    </div>
-                </div>
-            </div>
-        </section> -->
-        <section class="max-w-7xl mx-auto my-20">
+        <!-------------------------- New Arrivals Exclusive pc ------------------>
+
+        <section class="max-w-7xl mx-auto my-20 hidden md:block">
             <div class="flex">
                 <div class="relative">
                     <div class=" absolute top-0 bg-[#212121] h-full w-full bg-opacity-60">
@@ -937,6 +785,27 @@
                 </div>
             </div>
         </section>
+
+         <!-------------------------- New Arrivals Exclusive Mobile ------------------>
+         <section class="max-w-7xl mx-auto my-20 md:hidden">
+            <div class="flex">
+
+                <div class="relative">
+                    <div class=" absolute top-0 bg-[#212121] h-full w-full bg-opacity-60">
+                        <div class="absolute top-10 left-10 text-left text-[#FFFFFF]">
+                            <h2 class="text-xl">NEW ARRIVALS EXCLUSIVE</h2>
+                             <h1 class="text-6xl font-block ">2022</h1>
+                        </div>
+                    </div>
+                    <img src="./assets/photos/new_arrivals_exclu/Mask Group 79.png" alt="">
+                    <div class="absolute bottom-10 left-10 text-right text-[#FFFFFF]">
+                        <h2 class="text-lg font-bold">#ΦΡΟΝΤΙΔΑ ΒΡΕΦΩΝ & ΠΑΙΔΙΩΝ</h2>
+                      
+                    </div>
+                </div>
+            </div>
+        </section>
+
 
 
         <!-------------------- Top of The Instagram Feed  ------------------>
@@ -1046,8 +915,10 @@
                 </div>
 
                 <div class="md:flex mt-5 md:mt-0">
-                    <input type="text" placeholder="Το email σας" class=" rounded-none border-2 pl-5 border-gray-400 w-[400px] h-[56px]" />
-                    <button class="mt-2 md:mt-0 rounded-none btn btn-active md:ml-2  h-[56px]">Αποστολή</button>
+                    <input type="text" placeholder="Το email σας" class=" rounded-none border-2 pl-5 border-gray-400 md:w-[400px] w-full h-[56px]" />
+                    <button class="text-left md:text-center mt-2 w-full md:w-36 md:inline block md:mt-0 rounded-none btn btn-active md:ml-2  h-[56px]">
+                        Αποστολή
+                    </button>
                   </div>
             </div>
             
@@ -1056,7 +927,7 @@
 
 
         <!------------------------- Footer ---------------------->
-        <footer class="my-10 ">
+        <footer class="my-10  ">
             <section class=" py-10 bg-[url('./assets/photos/background_footer.png')]" >
                 <div class="max-w-7xl md:mx-auto mx-8 ">
                     <div>
@@ -1143,13 +1014,17 @@
                     </div>
                 </div>
             </section>
-            <!-- <section class="">
-                <div>
-                    © 2022 Syndesmos S.A. All rights reserved | Privacy Policy | Cookie Policy | Terms & Conditions<div>
-                <div>
-                    <span>designed & developed by</span> 
+            <!--------------------------- developed by --------------------->
+            <section class=" bg-[#F8F8F8] py-5 mt-1">
+                <div class="flex justify-between max-w-7xl mx-auto ">
+                    <div class="hidden md:block">
+                       <p> © 2022 Syndesmos S.A. All rights reserved  |  Privacy Policy  |  Cookie Policy  |  Terms & Conditions</p>
+                    </div>
+                    <div class="flex gap-5">
+                        <p>designed & developed by</p> <img src="./assets/photos/others/d-by.svg" alt="">
+                    </div>
                 </div>
-            </section> -->
+            </section>
 
         </footer>
 

@@ -11,3 +11,19 @@ var swiper = new Swiper('.mySwiper', {
         clickable: true,
     },
 })
+
+var swiper = new Swiper('.mySwiper2', {
+    slidesPerView: 7,
+    spaceBetween: 20,
+    slidesPerGroup: 7,
+    loop: true,
+    loopFillGroupWithBlank: true,
+    pagination: {
+        el: '.swiper-pagination2',
+        clickable: true,
+    },
+    navigation: {
+        nextEl: '.swiper-next',
+        prevEl: '.swiper-prev',
+    },
+})
